@@ -3,7 +3,7 @@ const nodeExternals = require("webpack-node-externals");
 
 module.exports = {
   entry: {
-    main: path.join(__dirname, "src", "main.js"),
+    main: path.join(__dirname, "src", "ft_bundle_main.js"),
   },
   target: "node",
   output: {
